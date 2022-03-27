@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="index.css" rel="stylesheet">
+    <title>Tribute Page</title>
+  </head>
+  <body>
+    <div id="main">
+      <div class="header">
+
+        <h1 id="title">Ethereum</h1>
+        <p>The start of Decentralized </p>
+      </div>
+
+      <figure id="img-div">
+        <img
+          src="https://cdn.investinblockchain.com/wp-content/uploads/2019/03/brunch-17-min.jpg.webp"
+          alt="Image of Vitalik Buterin "
+          id="img"
+        />
+        <figcaption id="img-caption">Vitalik Buterin, creator of Etheruem`</figcaption>
+      </figure>
+
+      <div id="tribute-info">
+        <h2>A timeline of Ethereum</h2>
+        <ul>
+          <li>
+            <b>2013</b> - The introductory paper was published by Vitalik
+            Buterin on November 27th.
+          </li>
+          <li>
+            <b>2014</b> - The Yellow Paper released, authored by Dr. Gavin Wood,
+            is a technical definition of the Ethereum protocol. Three months
+            later on July 22nd, Ethereum went on sale for 42 days starting at
+            2000 ETH / 1 BTC.
+          </li>
+          <li>
+            <b>2015</b> - Frontier was alive, but barebone implementation of the
+            Ethereum project. It followed the successful Olympic testing phase.
+            It was intended for technical users, specifically developers. Blocks
+            had a gas limit of 5,000. This ‘thawing’ period enabled miners to
+            start their operations and for early adopters to install their
+            clients without having to ‘rush’. Two months later on September 7th,
+            The frontier thawing fork lifted the 5,000 gas limit per block and
+            set the default gas price to 51 gwei. This allowed for transactions
+            – transactions require 21,000 gas. 1 Ethereum = $1.24
+          </li>
+          <li>
+            <b>2016</b> - The Homestead fork that looked to the future. It
+            included several protocol changes and a networking change that gave
+            Ethereum the ability to do further network upgrades. The DAO fork
+            was in response to the 2016 DAO attack where an insecure DAO
+            contract was drained of over 3.6 million ETH in a hack. The fork
+            moved the funds from the faulty contract to a new contract with a
+            single function: withdraw. Anyone who lost funds could withdraw 1
+            ETH for every 100 DAO tokens in their wallets. This course of action
+            was voted on by the Ethereum community. Any ETH holder was able to
+            vote via a transaction on a voting platform. The decision to fork
+            reached over 85% of the votes. Some miners refused to fork because
+            the DAO incident wasn't a defect in the protocol. They went on to
+            form Ethereum Classic. 1 Ethereum = $12.50
+          </li>
+          <li>
+            <b>2017</b> - The Byzantium fork: Reduced block mining rewards from
+            5 to 3 ETH. Delayed the difficulty bomb by a year.It added the
+            ability to make non-state-changing calls to other contracts. Added
+            certain cryptography methods to allow for layer 2 scaling. 1
+            Ethereum = $334.23
+          </li>
+          <li>
+            <b>2019</b> - The Constantinople fork: Ensured the blockchain didn't
+            freeze before proof-of-stake was implemented. Optimised the gas cost
+            of certain actions in the EVM. Added the ability to interact with
+            addresses that haven't been created yet. <br />The Istanbul fork:
+            Optimised the gas cost of certain actions in the EVM. Improved
+            denial-of-service attack resilience. Made Layer 2 scaling solutions
+            based on SNARKs and STARKs more performant. Enabled Ethereum and
+            Zcash to interoperate. Allowed contracts to introduce more creative
+            functions. 1 Ethereum = $151.06
+          </li>
+          <li>
+            <b>2020</b> - The Muir Glacier fork introduced a delay to the
+            difficulty bomb. Increases in block difficulty of the proof-of-work
+            consensus mechanism threatened to degrade the usability of Ethereum
+            by increasing wait times for sending transactions and using dapps.
+            Later that year in October, the staking deposit contract was
+            deployed. The staking deposit contract introduced staking to the
+            Ethereum ecosystem. Although a Mainnet contract, it had a direct
+            impact on the timeline for launching the Beacon Chain, an important
+            Eth2 upgrade. The Beacon Chain needed 16384 deposits of 32 staked
+            ETH to ship securely. This happened on November 27, meaning the
+            Beacon Chain started producing blocks on December 1, 2020. This is
+            an important first step in achieving the Eth2 vision. 1 Ethereum =
+            $586.23
+          </li>
+          <li>
+            <b>2021</b> - The London upgrade introduced EIP-1559, which reformed
+            the transaction fee market, along with changes to how gas refunds
+            are handled and the Ice Age schedule. The Altair upgrade was the
+            first scheduled upgrade for the Beacon Chain. It added support for
+            "sync committees"—enabling light clients, and bringing validator
+            inactivity and slashing penalties up to their full values. Altair
+            was the first major network upgrade that had an exact rollout time.
+            Every upgrade prior had been based on a declared block number on the
+            proof-of-work chain, where block times vary. The Beacon Chain does
+            not require solving for proof-of-work, and instead works on a
+            time-based epoch system consisting of 32 twelve-second "slots" of
+            time where validators can propose blocks. This is why we knew
+            exactly when we would hit epoch 74,240 and Altair became live! 1
+            Ethereum = $4024
+          </li>
+        </ul>
+      </div>
+
+      <div class="quote">
+        <p><q><em>I’m very excited about the potential that DeFi offers in principal. The idea that anyone anywhere in the world can have access and choose their financial exposure is a very powerful thing.</q></p></em></q>-Vitalik Buterin</p>
+      </div>
+
+      <div class="tribute-info">
+        <p>If you have time and want to read more about this incredible project, check out the <a  id="tribute-link" href="https://ethereum.org/en/history/" target="_blank">Ethereum website</a> </p>
+        
+      </div>
+    </div>
+  </body>
+</html>
